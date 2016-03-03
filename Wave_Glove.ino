@@ -51,6 +51,7 @@ void loop() {
       }
       
       Serial.print(Mode);
+      Serial.print(" ");
       Serial.println(Time);
     }
   }
